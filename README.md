@@ -13,4 +13,10 @@ This repository provides a collection of Jupyter notebooks designed to support r
 If you use this repository in your research, please cite the following paper:
 
 ```bash
-@inproceedings{brainwave2024, title = {Advancing Brainwave-Based Biometrics: A Large-Scale, Multi-Session Evaluation}, author = {}, booktitle = {}, year = {2024}, organization = {ACM}, doi = {10.1145/XXXXXXX.XXXXXXX}, note = {Available at https://doi.org/XXXXXXX.XXXXXXX} }
+@inproceedings{brainwave2024, title = {Advancing Brainwave-Based Biometrics: A Large-Scale, Multi-Session Evaluation},
+author = {},
+booktitle = {},
+year = {2024},
+organization = {ACM},
+doi = {10.1145/XXXXXXX.XXXXXXX},
+note = {Available at https://doi.org/XXXXXXX.XXXXXXX} }
