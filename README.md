@@ -2,7 +2,6 @@
 This repository provides a collection of Jupyter notebooks designed to support reproducibility and facilitate further research in brainwave-based biometric authentication. The toolkit reproduces key experiments and findings from the paper *[Advancing Brainwave-Based Biometrics: A Large-Scale, Multi-Session Evaluation](arxiv.org)*. 
 
 ## Citation
-
 If you use this repository in your research, please cite the following paper:
 
 ```bash
@@ -13,7 +12,7 @@ year = {2025},
 organization = {},
 doi = {10.1145/XXXXXXX.XXXXXXX},
 note = {Available at https://doi.org/XXXXXXX.XXXXXXX} }
-
+```
 
 ## How to Use
 ### 1. Clone the Repository
