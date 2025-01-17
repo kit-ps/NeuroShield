@@ -33,6 +33,7 @@ Install the following dependencies individually and resolve any additional requi
 ```bash
 pip install git+https://github.com/matinpf/pyeer.git
 pip install h5py
+pip install mne
 ```
 ### 3. Download Data
 Navigate to the ./0_Data_Preparation/ directory to download the subject data. You have two options:
