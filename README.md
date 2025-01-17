@@ -55,20 +55,22 @@ You can directly download the preprocessed dataset (150 GB) from *[this link](ht
 ```
 ### 4. Generate Additional Sub-Datasets and Extract Features
 To prepare additional sub-datasets and extract PSD (Power Spectral Density) features, follow these steps:
-    1. Run the data-splitting script:
+
+1. Run the data-splitting script:
     ```bash
     jupyter notebook 03_Further_Data_Split.ipynb
     ```
-    2. Extract PSD features:
+2. Extract PSD features:
     ```bash
     jupyter notebook 04_Create_PSD_Dataset.ipynb
     ```
 
 ### 5. Reproduce Results
 The repository is structured to align with the results section of the associated paper. You can replicate various results using the provided scripts.
-    - Pretrained models are stored in the ./PreTrained_Models/ directory for experiments requiring them.
 
-    - Alternatively, you can train new models using the training scripts available in the respective experiment folders. 
+- Pretrained models are stored in the ./PreTrained_Models/ directory for experiments requiring them.
+
+- Alternatively, you can train new models using the training scripts available in the respective experiment folders. 
 
 
 
