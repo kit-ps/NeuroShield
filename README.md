@@ -27,13 +27,13 @@ You can install the required dependencies using one of the following methods:
 #### Option 1: Install all dependencies in your conda environment:
 Activate your conda environment and run:
 ```bash
+conda env create -f environment.yaml --name new_environment_name
 ```
 #### Option 2: Install dependencies manually:
 Install the following dependencies individually and resolve any additional requirements as needed.
 ```bash
 pip install git+https://github.com/matinpf/pyeer.git
-pip install h5py
-pip install mne
+pip install h5py mne torch scikit-learn
 ```
 ### 3. Download Data
 Navigate to the ./0_Data_Preparation/ directory to download the subject data. You have two options:
@@ -74,7 +74,9 @@ The repository is structured to align with the results section of the associated
 - Alternatively, you can train new models using the training scripts available in the respective experiment folders. 
 
 
+---
 
+Feel free to reach out or open an issue if you encounter any problems. Happy experimenting!
 
 
 
