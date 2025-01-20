@@ -27,7 +27,6 @@ You can install the required dependencies using one of the following methods:
 #### Option 1: Install all dependencies in your conda environment:
 Activate your conda environment and run:
 ```bash
-conda env create -f environment.yaml --name new_environment_name
 ```
 #### Option 2: Install dependencies manually:
 Install the following dependencies individually and resolve any additional requirements as needed.
