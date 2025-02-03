@@ -13,7 +13,7 @@ For cluster usage, you can execute the provided script:
 00_Download_via_Cluster_Job.sh
 ```
 #### Option 2: Download preprocessed data
-You can directly download the preprocessed dataset (150 GB) from *[this link](https://bwsyncandshare.kit.edu/s/BLrtm8A2oFFrtYR)* and put it in following directory
+You can directly download the preprocessed dataset (150 GB) from *[this link](https://zenodo.org/records/14753435)* and put it in following directory
 ```bash
 ./Data/
 ```
