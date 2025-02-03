@@ -6,13 +6,12 @@ This repository provides a collection of Jupyter notebooks designed to support r
 If you use this repository in your research, please cite the following paper:
 
 ```bash
-@inproceedings{brainwave2024, title = {Advancing Brainwave-Based Biometrics: A Large-Scale, Multi-Session Evaluation},
-author = {},
-booktitle = {},
-year = {2025},
-organization = {},
-doi = {10.1145/XXXXXXX.XXXXXXX},
-note = {Available at https://doi.org/XXXXXXX.XXXXXXX} }
+@article{fallahi2025advancing,
+  title={Advancing Brainwave-Based Biometrics: A Large-Scale, Multi-Session Evaluation},
+  author={Fallahi, Matin and Arias-Cabarcos, Patricia and Strufe, Thorsten},
+  journal={arXiv preprint arXiv:2501.17866},
+  year={2025}
+}
 ```
 
 ## How to Use
@@ -50,7 +49,7 @@ For cluster usage, you can execute the provided script:
 00_Download_via_Cluster_Job.sh
 ```
 #### Option 2: Download preprocessed data
-You can directly download the preprocessed dataset (150 GB) from *[this link](https://bwsyncandshare.kit.edu/s/BLrtm8A2oFFrtYR)* and put it in following directory
+You can directly download the preprocessed dataset (150 GB) from *[this link](https://zenodo.org/records/14753435)* and put it in following directory
 ```bash
 ./Data/
 ```
