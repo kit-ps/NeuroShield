@@ -42,33 +42,31 @@ Run the following files to download and preprocess the data:
 ```bash
 python 01_Download_and_Preprocessing.py
 python 02_Merge_and_Split.py
+python 03_Further_Data_Split.py
 ```
 
 For cluster usage, you can execute the provided script:
 ```bash
 00_Download_via_Cluster_Job.sh
+python 02_Merge_and_Split.py
+python 03_Further_Data_Split.py
 ```
 #### Option 2: Download preprocessed data
 You can directly download the preprocessed dataset (150 GB) from *[this link](https://zenodo.org/records/14753435)* and put it in following directory
 ```bash
 ./Data/
 ```
-### 4. Generate Additional Sub-Datasets and Extract Features
-To prepare additional sub-datasets and extract PSD (Power Spectral Density) features, follow these steps:
 
-1. Run the data-splitting script:
-    ```bash
-    jupyter notebook 03_Further_Data_Split.ipynb
-    ```
-2. Extract PSD features:
-    ```bash
-    jupyter notebook 04_Create_PSD_Dataset.ipynb
+Then:
+```bash
+python 03_Further_Data_Split.py
+```
     ```
 
 ### 5. Reproduce Results
 The repository is structured to align with the results section of the associated paper. You can replicate various results using the provided scripts.
 
-- Pretrained models are stored in the ./PreTrained_Models/ directory for experiments requiring them.
+- Pretrained models are stored in the ./4.2_Analysis/Train_Models/model_3/ directory for experiments requiring them.
 
 - Alternatively, you can train new models using the training scripts available in the respective experiment folders. 
 
