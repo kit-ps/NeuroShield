@@ -1,0 +1,58 @@
+/home/fallahi/anaconda3/envs/NeuroShield/lib/python3.9/site-packages/pyeer/eer_stats.py:220: UserWarning: It is possible that you had set the wrong score type. Please consider reviewing if you are using dissimilarity or similarity scores
+  warn("It is possible that you had set the wrong score"
+/home/fallahi/anaconda3/envs/NeuroShield/lib/python3.9/site-packages/pyeer/eer_stats.py:220: UserWarning: It is possible that you had set the wrong score type. Please consider reviewing if you are using dissimilarity or similarity scores
+  warn("It is possible that you had set the wrong score"
+/home/fallahi/anaconda3/envs/NeuroShield/lib/python3.9/site-packages/pyeer/eer_stats.py:220: UserWarning: It is possible that you had set the wrong score type. Please consider reviewing if you are using dissimilarity or similarity scores
+  warn("It is possible that you had set the wrong score"
+/home/fallahi/anaconda3/envs/NeuroShield/lib/python3.9/site-packages/pyeer/eer_stats.py:220: UserWarning: It is possible that you had set the wrong score type. Please consider reviewing if you are using dissimilarity or similarity scores
+  warn("It is possible that you had set the wrong score"
+/home/fallahi/anaconda3/envs/NeuroShield/lib/python3.9/site-packages/pyeer/eer_stats.py:220: UserWarning: It is possible that you had set the wrong score type. Please consider reviewing if you are using dissimilarity or similarity scores
+  warn("It is possible that you had set the wrong score"
+/home/fallahi/anaconda3/envs/NeuroShield/lib/python3.9/site-packages/pyeer/eer_stats.py:220: UserWarning: It is possible that you had set the wrong score type. Please consider reviewing if you are using dissimilarity or similarity scores
+  warn("It is possible that you had set the wrong score"
+/home/fallahi/anaconda3/envs/NeuroShield/lib/python3.9/site-packages/pyeer/eer_stats.py:220: UserWarning: It is possible that you had set the wrong score type. Please consider reviewing if you are using dissimilarity or similarity scores
+  warn("It is possible that you had set the wrong score"
+/home/fallahi/anaconda3/envs/NeuroShield/lib/python3.9/site-packages/pyeer/eer_stats.py:220: UserWarning: It is possible that you had set the wrong score type. Please consider reviewing if you are using dissimilarity or similarity scores
+  warn("It is possible that you had set the wrong score"
+
+Processing model: ./Train_Models/model_3/ResNet1D_SupConLoss_train_raw_unconnected_final.pth
+  Dataset: ['../Data/test_raw.h5', '../Data/neg_raw.h5']
+model:  ResNet1D_SupConLoss_train_raw_unconnected_final.pth dataset:  ['test_raw.h5', 'neg_raw.h5'] avg_eer:  21.0864 std_eer:  14.3595
+  Dataset: ['../Data/test_hardware_HydroCe.h5']
+model:  ResNet1D_SupConLoss_train_raw_unconnected_final.pth dataset:  ['test_hardware_HydroCe.h5'] avg_eer:  10.0901 std_eer:  8.5349
+  Dataset: ['../Data/test_hardware_BioSemi.h5']
+model:  ResNet1D_SupConLoss_train_raw_unconnected_final.pth dataset:  ['test_hardware_BioSemi.h5'] avg_eer:  21.5534 std_eer:  7.9475
+  Dataset: ['../Data/test_hardware_Geodisi.h5']
+model:  ResNet1D_SupConLoss_train_raw_unconnected_final.pth dataset:  ['test_hardware_Geodisi.h5'] avg_eer:  10.5472 std_eer:  6.3406
+
+Processing model: ./Train_Models/model_3/ResNet1D_SupConLoss_train_unconnected_hardware_HydroCe_final.pth
+  Dataset: ['../Data/test_raw.h5', '../Data/neg_raw.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_HydroCe_final.pth dataset:  ['test_raw.h5', 'neg_raw.h5'] avg_eer:  23.2743 std_eer:  14.8732
+  Dataset: ['../Data/test_hardware_HydroCe.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_HydroCe_final.pth dataset:  ['test_hardware_HydroCe.h5'] avg_eer:  10.913 std_eer:  8.721
+  Dataset: ['../Data/test_hardware_BioSemi.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_HydroCe_final.pth dataset:  ['test_hardware_BioSemi.h5'] avg_eer:  36.3064 std_eer:  11.2289
+  Dataset: ['../Data/test_hardware_Geodisi.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_HydroCe_final.pth dataset:  ['test_hardware_Geodisi.h5'] avg_eer:  16.6347 std_eer:  8.592
+
+Processing model: ./Train_Models/model_3/ResNet1D_SupConLoss_train_unconnected_hardware_BioSemi_final.pth
+  Dataset: ['../Data/test_raw.h5', '../Data/neg_raw.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_BioSemi_final.pth dataset:  ['test_raw.h5', 'neg_raw.h5'] avg_eer:  28.2151 std_eer:  13.4302
+  Dataset: ['../Data/test_hardware_HydroCe.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_BioSemi_final.pth dataset:  ['test_hardware_HydroCe.h5'] avg_eer:  29.6493 std_eer:  12.1917
+  Dataset: ['../Data/test_hardware_BioSemi.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_BioSemi_final.pth dataset:  ['test_hardware_BioSemi.h5'] avg_eer:  22.7083 std_eer:  8.0136
+  Dataset: ['../Data/test_hardware_Geodisi.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_BioSemi_final.pth dataset:  ['test_hardware_Geodisi.h5'] avg_eer:  30.0987 std_eer:  11.5354
+
+Processing model: ./Train_Models/model_3/ResNet1D_SupConLoss_train_unconnected_hardware_Geodisi_final.pth
+  Dataset: ['../Data/test_raw.h5', '../Data/neg_raw.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_Geodisi_final.pth dataset:  ['test_raw.h5', 'neg_raw.h5'] avg_eer:  24.4613 std_eer:  11.5422
+  Dataset: ['../Data/test_hardware_HydroCe.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_Geodisi_final.pth dataset:  ['test_hardware_HydroCe.h5'] avg_eer:  24.3111 std_eer:  9.6231
+  Dataset: ['../Data/test_hardware_BioSemi.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_Geodisi_final.pth dataset:  ['test_hardware_BioSemi.h5'] avg_eer:  33.5176 std_eer:  10.0183
+  Dataset: ['../Data/test_hardware_Geodisi.h5']
+model:  ResNet1D_SupConLoss_train_unconnected_hardware_Geodisi_final.pth dataset:  ['test_hardware_Geodisi.h5'] avg_eer:  17.3694 std_eer:  7.7949
+
+Results saved to evaluation_results.json
