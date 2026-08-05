@@ -257,10 +257,15 @@ def process_subject_data(subject_id, session_id, captrak_path, edf_path, event_p
         print(subject_id, session_id, "Invalid events_df", len(events_sample))
         return None, None, None, None, None
 
+    original_sfreq = raw_63.info['sfreq']
     
     raw_63 = raw_63.reorder_channels(eeg_clist)
     raw_63, _ = mne.set_eeg_reference(raw_63, verbose=False)
     raw_63 = raw_63.filter(l_freq=0.1, h_freq=60, verbose=False)
+
+    if original_sfreq != 500:
+        raw_63 = raw_63.resample(500, npad='auto')
+        events_sample = np.rint(events_sample * 500 / original_sfreq).astype(int)
 
     
     #print("data shape 0 ", raw_63.get_data().shape)
@@ -409,4 +414,3 @@ if __name__ == '__main__':
 
     # Release memory explicitly
     gc.collect()
-
